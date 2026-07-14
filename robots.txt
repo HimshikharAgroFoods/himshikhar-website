@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://himshikharagrofoods.github.io/himshikhar-website/sitemap.xml
