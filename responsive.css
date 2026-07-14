@@ -1,0 +1,20 @@
+
+@media(max-width:1050px){
+  .nav-container{min-height:90px}.company-name{display:none}.nav-menu{gap:15px}.header-btn{padding:11px 15px}
+  .products-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:820px){
+  .nav-container{flex-wrap:wrap}.menu-btn{display:block;margin-left:auto}.header-btn{display:none}
+  .nav-menu{display:none;width:100%;flex-direction:column;align-items:stretch;padding:15px 0}.nav-menu.show{display:flex}.nav-menu a{text-align:center}
+  .hero-grid,.split-grid,.contact-page-grid,.product-detail{grid-template-columns:1fr}.hero{text-align:center}.hero-actions,.hero-badges,.hero-points{justify-content:center}
+  .feature-grid,.three-grid,.process-grid{grid-template-columns:repeat(2,1fr)}
+  .impact-grid,.compliance-grid,.roadmap,.trust-strip-grid{grid-template-columns:repeat(2,1fr)}
+  .partner-box{flex-direction:column;text-align:center}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:540px){
+  .section{padding:72px 0}.logo{width:75px}.hero{padding:70px 0}.hero h1{font-size:44px}.hero-card{padding:30px 20px}
+  .products-grid,.feature-grid,.three-grid,.process-grid,.impact-grid,.compliance-grid,.roadmap,.trust-strip-grid,.footer-grid{grid-template-columns:1fr}
+  .product-detail{padding:25px}.product-detail img{height:260px}.product-detail h2{font-size:34px}
+  .hero-actions{flex-direction:column}.btn{width:100%}.partner-box{padding:38px 22px}.page-hero{padding:72px 0}
+}
